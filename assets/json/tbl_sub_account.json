@@ -1,0 +1,16 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode": "varchar",
+        "sub_account": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode": "Kode",
+        "sub_account": "Sub Account",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

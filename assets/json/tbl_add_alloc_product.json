@@ -1,0 +1,28 @@
+{
+    "field": {
+        "id": "primary_key",
+        "tahun": "int",
+        "product_code": "varchar",
+        "account_code": "varchar",
+        "jumlah_asal": "int",
+        "jumlah_penyesuaian": "int",
+        "jumlah_allocation": "int",
+        "alloc_cc_product": "varchar",
+        "product_detail": "text",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "tahun": "Tahun",
+        "product_code": "Product Code",
+        "account_code": "Account Code",
+        "jumlah_asal": "Jumlah Asal",
+        "jumlah_penyesuaian": "Jumlah Penyesuaian",
+        "jumlah_allocation": "Jumlah Allocation",
+        "alloc_cc_product": "Alloc Cc Product",
+        "product_detail": "Product Detail",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

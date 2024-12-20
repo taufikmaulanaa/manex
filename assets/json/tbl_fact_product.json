@@ -1,0 +1,20 @@
+{
+    "field": {
+        "id": "primary_key",
+        "code": "varchar",
+        "product_name": "varchar",
+        "destination": "varchar",
+        "id_fact_department": "int",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "code": "Code",
+        "product_name": "Product Name",
+        "destination": "Destination",
+        "id_fact_department": "Id Fact Department",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

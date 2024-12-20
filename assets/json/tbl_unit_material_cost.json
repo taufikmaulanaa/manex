@@ -1,0 +1,30 @@
+{
+    "field": {
+        "id": "primary_key",
+        "tahun": "int",
+        "id_product": "int",
+        "product_code": "varchar",
+        "qty_production": "int",
+        "bottle": "int",
+        "content": "int",
+        "packing": "int",
+        "set": "int",
+        "subrm_toal": "int",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "tahun": "Tahun",
+        "id_product": "Id Product",
+        "product_code": "Product Code",
+        "qty_production": "Qty Production",
+        "bottle": "Bottle",
+        "content": "Content",
+        "packing": "Packing",
+        "set": "Set",
+        "subrm_toal": "Subrm Toal",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

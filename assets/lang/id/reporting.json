@@ -1,0 +1,22 @@
+{
+    "usulan_besaran_tertentu": "Usulan Besaran Tertentu",
+    "aset_tetap_dan_inventaris": "Aset Tetap dan Inventaris",
+    "rencana_kegiatan_promosi" : "Rencana Kegiatan Promosi",
+    "pengembangan_jaringan_kantor" : "Pengembangan Jaringan Kantor",
+    "pengembangan_layanan_digital" : "Pengembangan Layanan Digital",
+    "total" : "Total",
+    "cabang" : "Cabang",
+    "posisi_cabang" : "Posisi Cabang",
+    "account": "Account",
+    "sum_of" : "Sum OF",
+    "total_le" : "TOTAL LE",
+    "increase" : "Increase",
+    "cc" : "CC",
+    "not_allocated" : "Before Allocation",
+    "allocated" : "After Allocation",
+    "product" : "Product",
+    "factory" : "Factory",
+    "description" : "Description",
+    "code" : "code",
+    "cost_centre" : "Cost Centre"
+}

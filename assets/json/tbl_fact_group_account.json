@@ -1,0 +1,16 @@
+{
+    "field": {
+        "id": "primary_key",
+        "group": "varchar",
+        "prefix_account": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "group": "Group",
+        "prefix_account": "Prefix Account",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

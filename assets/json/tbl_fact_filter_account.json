@@ -1,0 +1,20 @@
+{
+    "field": {
+        "id": "primary_key",
+        "account_manex": "varchar",
+        "name": "varchar",
+        "account_code": "varchar",
+        "tail_subaccount": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "account_manex": "Account Manex",
+        "name": "Name",
+        "account_code": "Account Code",
+        "tail_subaccount": "Tail Subaccount",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

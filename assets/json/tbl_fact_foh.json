@@ -1,0 +1,14 @@
+{
+    "field": {
+        "id": "primary_key",
+        "name": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "name": "Name",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

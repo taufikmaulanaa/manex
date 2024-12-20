@@ -1,0 +1,24 @@
+{
+    "field": {
+        "id": "primary_key",
+        "tahun": "int",
+        "bulan": "varchar",
+        "account_code": "varchar",
+        "cost_centre": "varchar",
+        "initial_cc": "varchar",
+        "total": "double",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "tahun": "Tahun",
+        "bulan": "Bulan",
+        "account_code": "Account Code",
+        "cost_centre": "Cost Centre",
+        "initial_cc": "Initial Cc",
+        "total": "Total",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

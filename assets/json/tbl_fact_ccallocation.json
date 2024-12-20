@@ -1,0 +1,14 @@
+{
+    "field": {
+        "id": "primary_key",
+        "allocation": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "allocation": "Allocation",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

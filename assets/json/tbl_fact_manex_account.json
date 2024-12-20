@@ -1,0 +1,22 @@
+{
+    "field": {
+        "id": "primary_key",
+        "group": "int",
+        "account_code": "varchar",
+        "account_name": "varchar",
+        "account_member": "text",
+        "urutan": "int",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "group": "Group",
+        "account_code": "Account Code",
+        "account_name": "Account Name",
+        "account_member": "Account Member",
+        "urutan": "Urutan",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

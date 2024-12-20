@@ -1,0 +1,42 @@
+{
+    "field": {
+        "id": "primary_key",
+        "product_of": "varchar",
+        "is_dom": "smallint",
+        "cd": "smallint",
+        "category": "varchar",
+        "product": "varchar",
+        "description": "varchar",
+        "volume": "varchar",
+        "form": "varchar",
+        "is_brand": "smallint",
+        "e_catalog": "smallint",
+        "is_regular": "smallint",
+        "code": "varchar",
+        "destination": "varchar",
+        "cost_centre": "varchar",
+        "id_cost_centre": "int",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "product_of": "Product Of",
+        "is_dom": "Is Dom",
+        "cd": "Cd",
+        "category": "Category",
+        "product": "Product",
+        "description": "Description",
+        "volume": "Volume",
+        "form": "Form",
+        "is_brand": "Is Brand",
+        "e_catalog": "E Catalog",
+        "is_regular": "Is Regular",
+        "code": "Code",
+        "destination": "Destination",
+        "cost_centre": "Cost Centre",
+        "id_cost_centre": "Id Cost Centre",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

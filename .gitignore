@@ -1,0 +1,10 @@
+# Ignore node_modules folder
+# node_modules/
+
+# Ignore logs and temporary files
+*.htaccess
+
+# Ignore system files
+db.*
+database.php
+# /assets/cache/

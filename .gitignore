@@ -8,3 +8,4 @@
 db.*
 database.php
 # /assets/cache/
+bootstrap_helper.php

@@ -487,8 +487,8 @@ function input($tipe='',$label='',$nama='',$validation='',$value='',$attr='',$la
 		$html .= '</div>' . PHP_EOL;
 	}
 	$CI->session->unset_userdata('g_checkbox');
-	$c1 = $CI->session->userdata('col_label') ? $CI->session->userdata('col_label') : 0 ? $CI->session->userdata('col_label') : 0;
-	$c2 = $CI->session->userdata('col_input') ? $CI->session->userdata('col_input') : 12 ? $CI->session->userdata('col_input') : 12;
+	$c1 = $CI->session->userdata('col_label') ? $CI->session->userdata('col_label') : 0;
+	$c2 = $CI->session->userdata('col_input') ? $CI->session->userdata('col_input') : 12;
 	if($tipe == 'hidden') {
 		if(!$CI->session->userdata('g_inputgroup')) {
 			$html .= '<input type="hidden" name="'.$nama.'" id="'.$_id.'" value="'.$value.'"'.$attr.'>' . PHP_EOL;

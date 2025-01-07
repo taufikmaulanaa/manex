@@ -1,0 +1,14 @@
+{
+    "parent_item": "Parent Item",
+    "item_name": "Item Name",
+    "description": "Description",
+    "component_item": "Component Item",
+    "material_name": "Material Name",
+    "um": "Um",
+    "quantity": "Quantity",
+    "scrap": "Scrap",
+    "total": "Total",
+    "operation": "Operation",
+    "article_number": "Article Number",
+    "start_effective": "Start Effective"
+}

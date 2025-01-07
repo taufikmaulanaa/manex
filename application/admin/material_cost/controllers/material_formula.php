@@ -15,17 +15,31 @@ class Material_formula extends BE_Controller {
 	}
 
 	function data($tipe = 'table') {
+		ini_set('memory_limit', '-1');
+        ini_set('max_execution_time', -1);
 		$mst_account = menu();
 		if($mst_account['access_view']) {
-			$data['mst_account'][0] = get_data('tbl_fact_account',array('where_array'=>array('parent_id'=>0),'sort_by'=>'urutan'))->result();
+			$data['mst_account'][0] = get_data('tbl_material_formula',[
+					'select' => 'id,parent_item,item_name,description',
+					'where'=>[
+						'parent_item !='=>'',
+					],
+					'sort_by'=>'parent_item'
+				])->result();
 			foreach($data['mst_account'][0] as $m0) {
-				$data['mst_account'][$m0->id] = get_data('tbl_fact_account',array('where_array'=>array('parent_id'=>$m0->id),'sort_by'=>'urutan'))->result();
-				foreach($data['mst_account'][$m0->id] as $m1) {
-					$data['mst_account'][$m1->id] = get_data('tbl_fact_account',array('where_array'=>array('parent_id'=>$m1->id),'sort_by'=>'urutan'))->result();
-					foreach($data['mst_account'][$m1->id] as $m2) {
-						$data['mst_account'][$m2->id] = get_data('tbl_fact_account',array('where_array'=>array('parent_id'=>$m2->id),'sort_by'=>'urutan'))->result();
-					}
-				}
+				$data['mst_account'][$m0->id] = get_data('tbl_material_formula',[
+					'select' => 'id,component_item,material_name',
+					'where' => [
+						'parent_item'=>$m0->parent_item,
+					],
+					'sort_by'=>'parent_item'
+					])->result();
+				// foreach($data['mst_account'][$m0->id] as $m1) {
+				// 	$data['mst_account'][$m1->id] = get_data('tbl_fact_account',array('where_array'=>array('parent_id'=>$m1->id),'sort_by'=>'urutan'))->result();
+				// 	foreach($data['mst_account'][$m1->id] as $m2) {
+				// 		$data['mst_account'][$m2->id] = get_data('tbl_fact_account',array('where_array'=>array('parent_id'=>$m2->id),'sort_by'=>'urutan'))->result();
+				// 	}
+				// }
 			}
 			if($tipe == 'sortable') {
 				$response	= array(

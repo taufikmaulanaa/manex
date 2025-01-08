@@ -10,5 +10,6 @@
     "total": "Total",
     "operation": "Operation",
     "article_number": "Article Number",
-    "start_effective": "Start Effective"
+    "start_effective": "Start Effective",
+    "item_product" : "Item Product"
 }

@@ -5,6 +5,15 @@
 			<?php echo breadcrumb(); ?>
 		</div>
 		<div class="float-right">
+
+			<label class=""><?php echo lang('item_product'); ?> &nbsp</label>
+			<select class="select2 custom-select" style="width: 280px;" id="filter_produk">
+				<option value="ALL">ALL</option>
+				<?php foreach ($produk_items as $p) { ?>
+					<option value="<?php echo $p->parent_item; ?>"><?php echo $p->parent_item . ' | ' . $p->item_name; ?></option>
+				<?php } ?>
+			</select>
+
 			<?php echo access_button('delete,active,inactive,export,import'); ?>
 		</div>
 		<div class="clearfix"></div>
@@ -65,3 +74,21 @@ modal_open('modal-import',lang('impor'));
 		form_close();
 modal_close();
 ?>
+
+<script>
+
+$(document).ready(function() {
+	var url = base_url + 'material_cost/formula/data/' ;
+		url 	+= '/'+$('#filter_produk').val() 
+	$('[data-serverside]').attr('data-serverside',url);
+	refreshData();
+});	
+
+$('#filter_produk').change(function(){
+	var url = base_url + 'material_cost/formula/data/' ;
+		url 	+= '/'+$('#filter_produk').val() 
+	$('[data-serverside]').attr('data-serverside',url);
+	refreshData();
+});
+				
+</script>

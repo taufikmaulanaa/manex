@@ -7,11 +7,26 @@ class Formula extends BE_Controller {
 	}
 
 	function index() {
-		render();
+		$arr = [
+            'select' => 'distinct a.parent_item,a.item_name',
+            'where' => [
+                'a.is_active' => 1,
+            ],
+        ];
+
+        $data['produk_items'] = get_data('tbl_material_formula a', $arr)->result(); 
+		
+		render($data);
 	}
 
-	function data() {
-		$data = data_serverside();
+	function data($produk="") {
+		$config =[];
+		
+		if($produk && $produk != 'ALL') {
+	    	$config['where']['parent_item']	= $produk;	
+	    }
+
+		$data = data_serverside($config);
 		render($data,'json');
 	}
 

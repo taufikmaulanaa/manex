@@ -11,5 +11,16 @@
     "operation": "Operation",
     "article_number": "Article Number",
     "start_effective": "Start Effective",
-    "item_product" : "Item Product"
+    "item_product": "Item Product",
+    "year": "Year",
+    "material_code": "Material Code",
+    "kode_budget": "Kode Budget",
+    "nama": "Nama",
+    "vcode": "Vcode",
+    "loc": "Loc",
+    "bm": "Bm",
+    "curr": "Curr",
+    "price_us": "Price Us",
+    "user_id": "User Id",
+    "rates": "Rates"
 }

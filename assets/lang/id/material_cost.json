@@ -22,5 +22,9 @@
     "curr": "Curr",
     "price_us": "Price Us",
     "user_id": "User Id",
-    "rates": "Rates"
+    "rates": "Rates",
+    "code" : "Code",
+    "dest" : "Dest",
+    "standar" : "Standar Hari",
+    "batch" : "Batch Size"
 }
